@@ -15,4 +15,4 @@ SHELL ["/bin/sh", "-c"]
 EXPOSE 8080
 EXPOSE 5005
 
-CMD java ${ADDITIONAL_OPTS} -jar api-login.jar --spring-profiles.active=${PROFILE}
+CMD java ${ADDITIONAL_OPTS} -jar api-login.jar --spring.profiles.active=${PROFILE}
